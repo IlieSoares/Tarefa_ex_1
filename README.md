@@ -1,4 +1,3 @@
-README
 📖 Como funciona?
 Este projeto demonstra conceitos fundamentais de JavaScript por meio de exemplos interativos que podem ser executados diretamente no navegador.
 
