@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplos de Conceitos de JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Exemplos de Conceitos de JavaScript</h1>
+  </header>
+  <div class="container">
+
+    <!-- Funções Puras e Impuras -->
+    <section>
+      <h2>Funções Puras e Impuras</h2>
+      <label for="pure-impure-input">Digite um número:</label>
+      <input type="number" id="pure-impure-input" placeholder="Ex.: 5">
+      <button onclick="exemploFuncoesPurasImpuras()">Executar</button>
+      <div class="output" id="pure-impure-output"></div>
+    </section>
+
+    <!-- Currying -->
+    <section>
+      <h2>Currying</h2>
+      <label for="currying-input">Digite dois números separados por vírgula:</label>
+      <input type="text" id="currying-input" placeholder="Ex.: 3, 4">
+      <button onclick="exemploCurrying()">Executar</button>
+      <div class="output" id="currying-output"></div>
+    </section>
+
+    <!-- Funções de Ordem Superior -->
+    <section>
+      <h2>Funções de Ordem Superior</h2>
+      <label for="higher-order-input">Digite uma lista de números separados por vírgula:</label>
+      <input type="text" id="higher-order-input" placeholder="Ex.: 1, 2, 3">
+      <button onclick="exemploOrdemSuperior()">Executar</button>
+      <div class="output" id="higher-order-output"></div>
+    </section>
+
+    <!-- Closures -->
+    <section>
+      <h2>Closures</h2>
+      <label for="closure-input">Digite um número base:</label>
+      <input type="number" id="closure-input" placeholder="Ex.: 5">
+      <button onclick="exemploClosure()">Executar</button>
+      <div class="output" id="closure-output"></div>
+    </section>
+
+    <!-- Callbacks -->
+    <section>
+      <h2>Callbacks</h2>
+      <label for="callback-input">Digite um número:</label>
+      <input type="number" id="callback-input" placeholder="Ex.: 10">
+      <button onclick="exemploCallback()">Executar</button>
+      <div class="output" id="callback-output"></div>
+    </section>
+
+    <!-- Imutabilidade -->
+    <section>
+      <h2>Imutabilidade</h2>
+      <label for="immutability-input">Digite uma lista de números separados por vírgula:</label>
+      <input type="text" id="immutability-input" placeholder="Ex.: 1, 2, 3">
+      <button onclick="exemploImutabilidade()">Executar</button>
+      <div class="output" id="immutability-output"></div>
+    </section>
+
+    <!-- Deep Copy e Shallow Copy -->
+    <section>
+      <h2>Deep Copy e Shallow Copy</h2>
+      <label for="copy-input">Digite um objeto JSON:</label>
+      <input type="text" id="copy-input" placeholder='Ex.: {"a":1, "b":{"c":2}}'>
+      <button onclick="exemploCopia()">Executar</button>
+      <div class="output" id="copy-output"></div>
+    </section>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
